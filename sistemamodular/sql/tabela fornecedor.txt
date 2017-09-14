@@ -1,0 +1,14 @@
+CREATE TABLE FORNECEDORES
+(
+cnpj int (10),
+nomeF varchar2(10),
+nomeR varchar2(10),
+cepF int(10),
+enderecoF varchar2(10)
+cidade varchar2(10)
+municipio varchar2(10)
+estado varchar2(10)
+pais varchar2(10)
+telefone int(10));
+
+

@@ -1,0 +1,27 @@
+drop table funcionarios cascade constraint;
+
+create table funcionarios(
+	codigo varchar(10) not null,
+	nome varchar(30) not null,
+	endereco varchar(30) not null,
+	telefone varchar(30) not null,
+	cpf varchar(30) not null,
+	celular varchar(30) not null,
+	rg varchar(30) not null,
+	sexo varchar(30) not null,
+	cargo varchar(30) not null,
+	setor varchar(30) not null,
+	estadoCivil varchar(30) not null,
+	graduacao varchar(30) not null,
+	cargaHoraria varchar(30) not null,
+	dataNascimento varchar(30) not null,
+	dataAdmissao varchar(30) not null,
+	carteiraTrabalho varchar(30) not null,
+	salario varchar(30) not null,
+	modoPagamento varchar(30) not null,
+	tipoConta varchar(30) not null,
+	banco varchar(30) not null,
+	contaBancaria varchar(30) not null,
+	observacoes varchar(30) not null,
+	constraint pk_funcionarios primary key (codigo));
+	
